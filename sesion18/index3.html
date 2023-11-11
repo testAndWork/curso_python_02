@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h2>Tipos de etiquetas en form</h2>
+
+    <form >
+        <h3 style="background-color: blanchedalmond;">Etiqueta tipo "text"</h3>
+        <ul>
+            <li>Crea el campo de texto en una linea</li>
+            <li>Acapta cualquier texto alfanumerico</li>
+        </ul>
+
+        <label for="usuario" style="background-color: antiquewhite;">Usuario: </label>
+        <input type="text" name="usuario">
+
+
+        <h3 style="background-color: aquamarine;">Etiqueta tipo "password"</h3>
+        <ul>
+            <li>oculta el campo de texto</li>
+        </ul>
+
+        <label for="password">COntraseña: </label>
+        <input type="password" name="password">
+
+
+     <h3 style="background-color: rgb(255, 127, 234);">Etiqueta tipo "email"</h3>
+        <ul>
+            <li>Acepta y valida una direccion de correo electrónico</li>
+        </ul>
+
+        <label for="email">email: </label>
+        <input type="email" name="email">
+        <input type="submit">
+
+        <h3 style="background-color: rgb(76, 188, 128);">Etiqueta tipo "number"</h3>
+        <ul>
+            <li>Acepta numeros y ademas puede incluir atributos como min, max, step.</li>
+        </ul>
+
+        <label for="number"> Number</label>
+        <input type="number" name="number" min="1" max="12" step="1">
+        <input type="number" name="number" min="1" max="12" step="3">
+        <input type="number" name="number" min="10" max="25" step="5">
+        <input type="submit">
+
+
+        <h3 style="background-color: rgb(255, 234, 127);">Etiqueta tipo "date"</h3>
+        <ul>
+            <li>Proporciona un selector de fechas</li>
+        </ul>
+
+        <label for="date">Fecha: </label>
+        <input type="date" name="date">
+        <input type="submit" value="Enviar">
+
+        <h3 style="background-color: rgb(81, 172, 220);">Etiqueta tipo "checkbox"</h3>
+        <ul>
+            <li>Crea una casilla de verificacion que permite al usuario seleccion en estilo opcion multiple</li>
+        </ul>
+
+        <label for="checkbox">Deporte: </label>
+        <input type="checkbox" name="diario" value="Deportes">
+        <label for="checkbox">Musica: </label>
+        <input type="checkbox" name="diario">
+        <label for="checkbox">Estudio: </label>
+        <input type="checkbox" name="diario">
+        <input type="submit">
+
+
+        <h3 style="background-color: rgb(220, 228, 232);">Etiqueta tipo "radio"</h3>
+        <ul>
+            <li>Crea una casilla de verificacion que permite al usuario seleccion en estilo opcion multiple</li>
+        </ul>
+
+        <label for="radio">Deporte: </label>
+        <input type="radio" name="diario" value="Deportes">
+        <label for="radio">Musica: </label>
+        <input type="radio" name="diario">
+        <label for="radio">Estudio: </label>
+        <input type="radio" name="diario">
+        <input type="submit">
+
+
+        <h3 style="background-color: rgb(210, 203, 170);">Etiqueta tipo "file"</h3>
+        <ul>
+            <li>Permite cargar un archivo</li>
+        </ul>
+
+        <label for="file">Cargar archivo: </label>
+        <input type="file" name="date">
+        <input type="submit" value="Enviar">
+
+        <h3 style="background-color: rgb(255, 127, 148);">Etiqueta tipo "reset"</h3>
+        <ul>
+            <li>Borra oi reinicia el formulario</li>
+        </ul>
+
+        <label for="reset"> </label>
+        <input type="reset" name="reset">
+
+
+    </form>
+
+
+     <pre>
+
+     </pre>
+
+     <footer>Derechos reservados.</footer>
+
+</body>
+</html>

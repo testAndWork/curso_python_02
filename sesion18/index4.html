@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET y POST</title>
+</head>
+<body>
+    <h3>GET</h3>
+    <ul>
+        <li>se utiliza para solicitar datos del servidor.</li>
+        <li>los datos del formulario se agregan a la URL como parametros de consulta</li>
+        <li>es visible en la barra de direcciones del navegador y puede ser macado o guardado en el navegador. </li>
+         <li>Es adecuado para solicitudes que no cambian el estado del servidor (consultad de bases de datosy busqueda) </li>
+        <li >Los datos tienen una longitud limitada por las restricciones de longitud URL</li>
+    </ul>
+    
+<form action="/buscar" method="get">
+    <label for="buscar" >Buscar:</label>
+    <input type="text" name="buscar" id="buscar" placeholder="Que desea buscar .. ">
+    <input type="submit" name= "buscar" id = "buscar" value="Buscar">
+</form>
+    
+    
+    <h3>POST</h3>
+    <ul>
+        <li>Envia datos al servidor para procesarlo datos del servidor.</li>
+        <li>los datos del formulario no son visibles</li>
+        <li>es adecuado para enviar datos confidenciales y ademas pueden ser mas extensos. </li>
+         <li>No se utiliza para solicitudes que cambian el estado del servido de ser asi se debe usar con precaucion </li>
+        <li >No tiene restriccion de longitud como el metodo GET</li>
+    </ul>
+
+    <form action="/procesar-form" method="post">
+        <label for="nombre"><b>Nombre a insertar:</b> </label>
+        <input type="text" id="nombre" name="nombre" placeholder="nombre aca ..." > <br><br>
+        <label for="codigo"><b>Codigo de la persona:</b> </label>
+        <input type="text" id="codigo" name="codigo" placeholder="codigo aca..."><br><br>
+        <input type="submit" value="Enviar ">
+    </form>
+
+</body>
+</html>
