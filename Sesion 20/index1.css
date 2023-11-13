@@ -1,0 +1,39 @@
+
+/* Este es el archivo de estilo para  mi solución web*/
+
+
+h1 {
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    background-color: antiquewhite;
+}
+
+h2 {
+    color: brown;
+    font-family: cursive;
+    text-align: left;
+    font-size: larger;
+    background-color: cornsilk;
+    line-height: 1.5;
+    border: 2px solid cornflowerblue;
+}
+
+/* PErsonalizar los parrafos*/
+
+pre {
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 3.0;
+}
+
+article{
+
+    background-color: rgb(146, 167, 168);
+}
+
+p {
+    background-color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
