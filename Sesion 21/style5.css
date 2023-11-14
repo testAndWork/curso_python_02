@@ -1,0 +1,23 @@
+
+.container{
+    position: initial;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.particle{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    animation: particleAnimation 1s ease-out forwards;
+    border-radius: 50% ;
+}
+
+@keyframes particleAnimation {
+    to{
+    transform: translate(calc(random()*200px), calc(random()*200px) ) scale(0);
+    opacity: 0;
+    }
+}

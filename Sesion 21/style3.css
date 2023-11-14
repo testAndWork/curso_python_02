@@ -1,0 +1,17 @@
+
+
+.button {
+    transition: transform 0.3s;
+    width: 200px;
+    height: 50px;
+    background: cornflowerblue;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.button:hover{
+    transform: scale(2);
+}

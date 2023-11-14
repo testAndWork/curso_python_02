@@ -1,0 +1,44 @@
+
+h2{
+    color: bisque;
+    background: black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 11pt;
+    margin: 45px;
+    text-align: justify;
+    border-collapse: collapse;
+    border: 2px;
+}
+
+th{
+    font-size: 13pt;
+    font-weight: normal;
+    padding: 8px;
+    background: silver;
+    border-top: 4px solid goldenrod;
+    border-bottom: 4px solid goldenrod;
+    color: brown;
+}
+
+td{
+    padding: 8px;
+    background: powderblue;
+    border-top: 4px solid rgb(74, 72, 66);
+    border-bottom: 4px solid rgb(218, 32, 51);
+    color: blue;
+}
+
+tr:hover td{
+    background: yellowgreen;
+    color: rgb(172, 135, 210);
+}
+
