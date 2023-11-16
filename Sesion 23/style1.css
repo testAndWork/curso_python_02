@@ -1,0 +1,14 @@
+.login-form-outer{
+    margin-top:5rem;
+  }
+  .login-skin{
+    padding:1rem;
+    background:#555;
+    color:#fff;
+  }
+  .login-skin a{
+    color:#f9f9f9;
+  }
+  .login-skin label{
+    color:#fff;
+  }
