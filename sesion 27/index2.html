@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <header>
+        <h1 id="titulo1">DOCUMENT OBJECT MODELER</h1>
+    </header>
+
+        <h2 id="titulo2"> getElementById</h2>
+
+        <p id="parrafo"> Esta es una prueba del DOM para modificar los elementops por ID</p>
+
+    <script>
+        const titulo1 = document.getElementById("titulo1")
+        titulo1.style.color = "purple"
+
+        const titulo2 = document.getElementById("titulo2")
+        titulo2.style.color = "brown"
+        
+        const parrafo = document.getElementById("parrafo")
+        parrafo.style.color = "blue"
+
+       // parrafo.textContent = "Este es una nueva modificacion al texto"
+
+        parrafo.classList.add("Newclase")
+
+        parrafo.style.fontFamily = "Arrial, sans-serif"
+
+        titulo1.style.fontSize =  "30px"
+        titulo2.style.fontSize =  "24px"
+        parrafo.style.fontSize =  "12px"
+
+        parrafo.style.border = "3px solid green"
+
+        titulo1.addEventListener("click", function(){
+            titulo1.style.color  = "orange"
+        } )
+
+        parrafo.addEventListener("mouseover", function(){
+            parrafo.textContent = "Me modifico cuando el mouse esta sobre el parrafo"
+        })
+
+        parrafo.addEventListener("mouseover", function(){
+            parrafo.style.color  = "orange"
+        })
+        titulo2.addEventListener("mouseout", function(){
+            titulo2.style.backgroundColor  = "lightblue"
+        } )
+
+
+
+    </script>
+
+    
+</body>
+</html>
