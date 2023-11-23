@@ -1,0 +1,34 @@
+h2 {
+    color: brown;
+    background-color: rgb(247, 233, 217);
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(218, 232, 244);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color:rgb(66, 74, 66) ;
+    color: aliceblue;
+    border: 2px solid rgb(82, 98, 181);
+    font-family:'Times New Roman', Times, serif;
+}
+
+th{
+    background-color:rgb(105, 144, 105) ;
+    color: aliceblue;
+    border: 2px solid rgb(155, 159, 150);
+    font-family:'Times New Roman', Times, serif;
+    padding: 6px;
+}
+
+td {
+    border: 2px solid rgb(194, 197, 214);
+    font-family:'Times New Roman', Times, serif;
+    padding: 6px;
+    text-align: left;
+}

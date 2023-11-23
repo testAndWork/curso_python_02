@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registro de Productos</title>
+  <link rel="stylesheet" href="/style1.css">
+</head>
+<body>
+  <h2>Registro de Productos</h2>
+  
+  <!-- Formulario para ingresar información del producto -->
+  <form id="formulario">
+    <label for="id">ID:</label>
+    <input type="text" id="id" required><br>
+    
+    <label for="producto">Producto:</label>
+    <input type="text" id="producto" required><br>
+    
+    <label for="descripcion">Descripción:</label>
+    <input type="text" id="descripcion" required><br>
+    
+    <label for="costo">Costo Unitario:</label>
+    <input type="number" id="precio" required><br>
+    
+    <!-- Nuevo campo para la cantidad -->
+    <label for="cantidad">Cantidad:</label>
+    <input type="number" id="cantidad" required><br>
+    
+    <button type="button" id="agregar">Agregar Producto</button>
+    <button type="button" id="exportarCSV">Exportar a CSV</button> <!-- Botón para exportar -->
+  </form>
+  
+  <!-- Tabla para mostrar los productos -->
+  <table id="tabla">
+    <tr>
+      <th>ID</th>
+      <th>Producto</th>
+      <th>Descripción</th>
+      <th>Precio Unitario</th>
+      <!-- Nueva columna para la cantidad -->
+      <th>Cantidad</th>
+    </tr>
+  </table>
+
+  <script src="/index1.js">
+     </script>
+</body>
+</html>
